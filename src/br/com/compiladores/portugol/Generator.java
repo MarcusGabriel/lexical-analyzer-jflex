@@ -10,7 +10,9 @@ public class Generator {
 		String subPath = "/src/br/com/compiladores/portugol/";
 		String fileName = "language.lex";
 		String file = rootPath + subPath + fileName;
+		
 		File sourceCode = new File(file);
+		
 		jflex.Main.generate(sourceCode);
 	}
 }
