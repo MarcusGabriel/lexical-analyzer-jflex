@@ -1,0 +1,10 @@
+inteiro A = 5;
+inteiro fat = 1;
+
+
+enquanto A < 1
+	fat = fat * A;
+	A--;
+fimenquanto
+
+escreva fat;

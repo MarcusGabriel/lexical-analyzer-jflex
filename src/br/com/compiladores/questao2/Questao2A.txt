@@ -1,0 +1,9 @@
+REAL A = 3
+
+REAL B = 5
+
+REAL C = 5
+
+REAL MEDIA = ( A + B + C ) / 3
+
+ESCREVA MEDIA
